@@ -19,7 +19,7 @@
     </appender>
 
     <!-- 控制台输出日志级别 -->
-    <root level="ERROR">
+    <root level="info">
         <appender-ref ref="STDOUT" />
     </root>
 
@@ -27,7 +27,7 @@
         <appender-ref ref="STDOUT" />
     </logger>
 
-    <logger name="com.baizhi.dao" level="TRACE" additivity="false">
+    <logger name="com.sxyh.dao" level="TRACE" additivity="false">
         <appender-ref ref="STDOUT" />
     </logger>
 
